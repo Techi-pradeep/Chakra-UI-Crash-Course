@@ -1,7 +1,7 @@
 import { Box, SimpleGrid } from "@chakra-ui/react";
 
 export default function Dashboard() {
-
+/*minChildWidth={250}  -- fixing each child width */
   return (
     <SimpleGrid p="10px" columns={4} spacing={10} minChildWidth={250}>
       <Box bg="white" height="200px" border="1px solid"></Box>
