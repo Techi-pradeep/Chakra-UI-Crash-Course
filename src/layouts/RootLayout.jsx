@@ -5,6 +5,8 @@ import { Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar"
 
 export default function RootLayout() {
+/* Grid more complex but not auto responsive*/
+  
   return (
     <Grid templateColumns="repeat(6, 1fr)" bg="gray.50">
       {/* sidebar */}
