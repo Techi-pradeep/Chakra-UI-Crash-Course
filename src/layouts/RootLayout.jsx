@@ -5,6 +5,8 @@ import { Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar"
 
 export default function RootLayout() {
+
+  /*  object Syntax --responsive----={{ base: 6, lg: 2, xl: 1 }} */
   return (
     <Grid templateColumns="repeat(6, 1fr)" bg="gray.50">
       {/* sidebar */}
